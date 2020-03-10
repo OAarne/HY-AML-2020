@@ -55,6 +55,7 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [],
+    "mid": 1549268963878,
     "name": "HY-AML-2020",
     "note_models": [
         {
@@ -113,6 +114,18 @@
             ],
             "flags": 0,
             "guid": "p-}T~22lbX",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The quality of a reduced-dimensional representation is measured by {{c1::reconstruction error}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z~c?#f{Ehs",
             "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
             "tags": []
         }
