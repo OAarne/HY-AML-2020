@@ -36,7 +36,7 @@ There's a bunch of instructions for how to contribute in the [CrowdAnki readme](
 
 ### Basics of making Anki cards
 
-#### Math
+#### Card types
 
 Anki supports a number of different types of cards, the most important ones are
 
@@ -44,7 +44,11 @@ Anki supports a number of different types of cards, the most important ones are
 - Basic and reversed card, which asks you to remember it both front to back and back to front
 - And most interestingly, Cloze, which allows you to add (multiple) non-overlapping fill-in-the blanks. E.g. `{{c1::Fill}} in the {{c2::blank}}` will separately ask you to remember the verb and the object of that sentence. On desktop, Ctrl+Shift+C makes a selection a Cloze deletion.
 
+#### Math
+
 You can add MathJax to cards like so `\( \mathbb E[f(x)] \)` for inline math, or `\[ \frac 1 2 \]` for display mode math.
+
+#### Pictures
 
 You can add images, e.g. plots, to cards by just dragging the image file into the editor.
 
