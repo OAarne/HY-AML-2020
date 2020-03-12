@@ -31,7 +31,7 @@ There's a bunch of instructions for how to contribute in the [CrowdAnki readme](
 2. Clone this repo, or pull the latest changes if you've cloned it before.
 3. Re-import the deck in Anki to make sure that it's up to date there too.
 4. Make your additions to the deck, if you haven't already.
-5. Export the deck into the repo, such that the deck.json file and media directory get overwritten.
+5. Export the deck into the repo in CrowdAnki json format, such that the deck.json file and media directory get overwritten.
 6. Git push
 
 ### Basics of making Anki cards
