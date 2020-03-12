@@ -36,6 +36,10 @@ There's a bunch of instructions for how to contribute in the [CrowdAnki readme](
 
 ### Basics of making Anki cards
 
+#### Making good cards
+
+Check out [Nielsen's article](http://augmentingcognition.com/ltm.html), and especially [Wozniak's Twenty rules for formulating knowledge](https://www.supermemo.com/en/archives1990-2015/articles/20rules)
+
 #### Card types
 
 Anki supports a number of different types of cards, the most important ones are
