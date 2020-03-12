@@ -102,6 +102,60 @@
             ],
             "type": 1,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c79b2657-64b6-11ea-a2b7-e550f5e55232",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
         }
     ],
     "notes": [
@@ -126,6 +180,354 @@
             ],
             "flags": 0,
             "guid": "z~c?#f{Ehs",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><div>The three elements of an ML solution</div><div>- {{c1::Model: What assumptions we make}}</div><div>- [...]</div><div>- [...]</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "q85Tqs[P^4",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><div>The three elements of an ML solution</div><div>- [...]</div><div>- {{c1::Problem: What we want to achieve}}</div><div>- [...]</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "eRNcFf_E/3",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><div>The three elements of an ML solution</div><div>- [...]</div><div>- [...]</div><div>- {{c1::Algorithm: What algorithm we are using to solve the problem}}</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "v$SMS^Mqwk",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><div>The three elements of an ML solution</div><div>- {{c1::Model: What assumptions we make}}</div><div>- {{c1::Problem: What we want to achieve}}</div><div>- {{c1::Algorithm: What algorithm we are using to solve the problem}}</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "q0K|T>:cIw",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A model \\( \\mathcal M \\) {{c1::describes}} data and typically has some unknown {{c1::parameters \\( \\mathbf \\theta \\)}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "m&kq,v3xMW",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The loss function defines {{c1::the goal of the learning task}}.<br>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "mC@mwnXPLm",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The loss function depends on {{c1::the data \\(\\mathcal D\\), the model \\(\\mathcal M\\), and the parameters \\( \\mathbf \\theta \\)::three things}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hL6^Ss$Gog",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why is logistic regression called that, even though it's usually used for classification?<br>",
+                "Beause it predicts a real number (probability), which then needs to be mapped to classes by a separate function.<br>"
+            ],
+            "flags": 0,
+            "guid": "zfZ$jzt.!,",
+            "note_model_uuid": "c79b2657-64b6-11ea-a2b7-e550f5e55232",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ordinal regression is a type of regression used to predict an ordinal variable, i.e. a variable {{c1::on a scale where only the relative ordering of values is significant}}.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sXyNhmj8,6",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Formally, in {{c2::multi-label}} classification you're predicting {{c1::an n-dimensional binary vector}}<br>",
+                "where n is the number of labels<br>"
+            ],
+            "flags": 0,
+            "guid": "z-0z5`$02~",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Structured (output) prediction}} refers to {{c1::techniques for predicting complex, structured objects, such as translation of a sentence or 3D structure of a protein.}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r?S(p}VAzq",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Most UL techniques are somehow based on {{c1::reconstruction}} error.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zX{lWw9N&U",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Explore exploit tradeoff in reinforcement learning<div><br></div><div>Exploring: {{c1::taking novel actions to get feedback in order to find good actions to take}}</div><div>Exploiting: {{c1::taking actions already known to be relatively good}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "DbG<kGbm~M",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Transfer learning}} refers to {{c1::techniques that try to borrow information from other models.}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "c*_*qviV+v",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Semi-supervised learning}} refers to {{c1::techniques for learning from data where only some samples are labeled.}}&nbsp;",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Q^!#6zo2yc",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Transductive learning}} refers to {{c1::classifying available unlabeled data based on available labeled data}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "j~iO:}]11Y",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Inductive learning}} refers to {{c1::classifying available <b>and&nbsp;</b>future unlabeled data based on available labeled data}}<br>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Jexs3*FKpp",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Active learning}} systems are called that because they {{c1::actively query the user for additional}} labels.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "rpa?Qm8Ia1",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Active learning}} systems use an {{c1::acquisition function}} to determine {{c1::which additional labels would most reduce risk on expectation}}.<br>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "KU9N3DA/bj",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Multi-view learning}} refers to {{c1::learning from combinations of different types of data, e.g. image and its caption.}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ps:R8m2Cs~",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::<b>Multi-task learning</b> (MTL)}}&nbsp;refers to {{c1::a type of tranfer learning where multiple learning tasks are solved at the same time}}<br>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "A1if//h!+f",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Domain adaptation}} refers to {{c1::a type of transfer learning where a model of a similar but different distribution is transformed to fit a new distribution.}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nnhV%JEX.N",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In general, machine learning is about optimizing {{c1::the generalization error}}<br>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "LCA{w:j?da",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::<b>Risk</b>}} is defined as {{c1::the <b>expected loss</b> over the distribution generating the data points}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "J6ddb,oi!3",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "There are two major theoretical formulations of risk:<br><br>{{c2::Statistical learning theory}} and {{c1::Bayesian statistics}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E&kU;y8T_}",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c2::Statistical learning theory}}&nbsp;treats the data generation process as {{c1::truly unknown}}, and tries to {{c1::bound the risk}} based on {{c1::estimates computed from available data}}.<br>",
+                ""
+            ],
+            "flags": 0,
+            "guid": ":KD2PoG(+",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "As opposed to SLT, {{c2::Bayesian}} statistics assumes {{c1::we know a model but are just unsure of the parameters}}.<br>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MO{HE1IzH/",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Because Bayesian models {{c1::make stronger assumptions about the generating distribution}}, they typically have higher {{c2::bias}} but lower {{c2::variance}}.<br>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D_98]G}4AN",
+            "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bayesian decision theory separates modeling into two distinct tasks.<br><br>1. {{c1::Finding the posterior distribution \\( p(\\mathbf \\theta | \\mathcal D ) \\)}}<br>2. {{c1::Making decisions that minimize the risk}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "lb)L#HwTK/",
             "note_model_uuid": "451bea4e-62cb-11ea-a3f6-6fdbf6637bfa",
             "tags": []
         }
